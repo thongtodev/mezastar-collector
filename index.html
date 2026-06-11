@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mezastar Collector - Ứng dụng Android hỗ trợ quản lý bộ sưu tập tag, trao đổi, thống kê, Boss Helper và Trainer Ticket QR cho cộng đồng Pokémon Mezastar Việt Nam." />
+  <title>Mezastar Collector - Quản lý bộ sưu tập Mezastar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-bg"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Mezastar Collector">
+      <span class="brand-mark">
+        <span class="ball-top"></span>
+        <span class="ball-band"></span>
+        <span class="ball-dot"></span>
+      </span>
+      <span>
+        <strong>Mezastar Collector</strong>
+        <small>Tag collection helper</small>
+      </span>
+    </a>
+
+    <nav class="nav-links" aria-label="Điều hướng chính">
+      <a href="#features">Tính năng</a>
+      <a href="#screenshots">Giao diện</a>
+      <a href="#install">Cài đặt</a>
+      <a href="#download">Tải APK</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">Ứng dụng Android cho Trainer Việt Nam</p>
+        <h1>Quản lý bộ sưu tập Mezastar gọn hơn, đẹp hơn, tiện hơn.</h1>
+        <p class="hero-desc">
+          Mezastar Collector hỗ trợ theo dõi tag đã có, tag còn thiếu, tag dư, tạo danh sách trao đổi,
+          gợi ý đội hình đánh boss và lưu Trainer Ticket QR để dùng lại trên nhiều thiết bị.
+        </p>
+
+        <div class="hero-actions" id="download">
+          <a class="btn btn-primary" href="https://github.com/YOUR_USERNAME/mezastar-collector/releases/latest" target="_blank" rel="noopener">
+            Tải APK Android
+          </a>
+          <a class="btn btn-secondary" href="#install">Xem cách cài</a>
+        </div>
+
+        <div class="hero-stats" aria-label="Tóm tắt tính năng">
+          <div>
+            <strong>Offline-first</strong>
+            <span>Dùng được khi không có mạng</span>
+          </div>
+          <div>
+            <strong>Sync Firebase</strong>
+            <span>Đăng nhập cùng tài khoản để đồng bộ</span>
+          </div>
+          <div>
+            <strong>Trade card</strong>
+            <span>Tạo ảnh trao đổi để gửi nhanh</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Ảnh màn hình ứng dụng">
+        <div class="orb orb-yellow"></div>
+        <div class="orb orb-blue"></div>
+        <div class="phone-stack">
+          <div class="phone phone-back">
+            <img src="assets/danhSachTag.png" alt="Danh sách tag trong Mezastar Collector" />
+          </div>
+          <div class="phone phone-front">
+            <img src="assets/TrangChu.png" alt="Màn hình trang chủ Mezastar Collector" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-band section-wrap" id="features">
+      <div class="section-heading">
+        <p class="eyebrow">Một app cho nhiều việc</p>
+        <h2>Hỗ trợ từ lúc kiểm tag đến lúc đi trade.</h2>
+        <p>
+          Thiết kế riêng cho nhu cầu sưu tầm Mezastar: nhanh, rõ, dễ thao tác và tránh phải ghi chú thủ công.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <article class="feature-card red">
+          <span class="feature-icon">📒</span>
+          <h3>Quản lý bộ sưu tập</h3>
+          <p>Theo dõi tag đang sở hữu, còn thiếu, số lượng từng tag và tag dư theo từng mùa.</p>
+        </article>
+        <article class="feature-card blue">
+          <span class="feature-icon">⚡</span>
+          <h3>Thêm nhanh</h3>
+          <p>Cập nhật số lượng nhiều tag cùng lúc, tiện khi vừa kiểm xong một xấp tag ngoài đời.</p>
+        </article>
+        <article class="feature-card yellow">
+          <span class="feature-icon">📊</span>
+          <h3>Báo cáo sưu tầm</h3>
+          <p>Xem độ phủ bộ sưu tập, phân tích theo hệ, theo hạng và cấp bậc Trainer.</p>
+        </article>
+        <article class="feature-card green">
+          <span class="feature-icon">🤝</span>
+          <h3>Trao đổi tag</h3>
+          <p>Quản lý tag dư, tag cần tìm, lịch sử trao đổi và xuất ảnh trade để gửi Zalo/Facebook.</p>
+        </article>
+        <article class="feature-card purple">
+          <span class="feature-icon">🎯</span>
+          <h3>Boss Helper</h3>
+          <p>Chọn boss đối địch để app gợi ý tag phù hợp theo hệ, move, PE và mechanic.</p>
+        </article>
+        <article class="feature-card dark">
+          <span class="feature-icon">🎫</span>
+          <h3>Trainer Ticket QR</h3>
+          <p>Lưu QR Trainer Ticket, đổi kiểu Ball và đồng bộ trên nhiều thiết bị cùng tài khoản.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="showcase section-wrap" id="screenshots">
+      <div class="section-heading center">
+        <p class="eyebrow">Giao diện thực tế</p>
+        <h2>Nhìn nhanh các màn hình chính.</h2>
+        <p>Ảnh chụp trực tiếp từ app đang phát triển.</p>
+      </div>
+
+      <div class="screenshot-grid">
+        <article class="screen-card large">
+          <div class="phone mini-phone"><img src="assets/TrangChu.png" alt="Trang chủ app" /></div>
+          <div>
+            <span class="tag red-tag">Home</span>
+            <h3>Trang chủ dạng hub</h3>
+            <p>Các chức năng chính được gom gọn để vào nhanh: Tag, Trade, Thống kê, Boss Helper, Trainer Ticket.</p>
+          </div>
+        </article>
+
+        <article class="screen-card">
+          <div class="phone mini-phone"><img src="assets/danhSachTag.png" alt="Danh sách tag" /></div>
+          <h3>Danh sách tag</h3>
+          <p>Lọc, xem thông tin tag, type, move, mechanic và số lượng đang có.</p>
+        </article>
+
+        <article class="screen-card">
+          <div class="phone mini-phone"><img src="assets/thongKe.png" alt="Thống kê bộ sưu tập" /></div>
+          <h3>Báo cáo sưu tầm</h3>
+          <p>Theo dõi mùa, hệ nổi bật, tag thiếu và độ phủ bộ sưu tập.</p>
+        </article>
+
+        <article class="screen-card">
+          <div class="phone mini-phone"><img src="assets/trade.png" alt="Màn hình trade tag" /></div>
+          <h3>Trao đổi tag</h3>
+          <p>Quản lý tag dư, tag cần tìm và tạo ảnh danh sách trade.</p>
+        </article>
+
+        <article class="screen-card">
+          <div class="phone mini-phone"><img src="assets/bossHelper.png" alt="Boss Helper" /></div>
+          <h3>Boss Helper</h3>
+          <p>Gợi ý đội hình dựa trên boss chính hoặc nhiều boss đối địch.</p>
+        </article>
+
+        <article class="screen-card">
+          <div class="phone mini-phone"><img src="assets/trainerID.png" alt="Trainer Ticket QR" /></div>
+          <h3>Trainer Ticket</h3>
+          <p>Lưu QR Trainer Ticket và đổi giao diện Ball theo sở thích.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="install section-wrap" id="install">
+      <div class="install-card">
+        <div>
+          <p class="eyebrow">Cài đặt APK</p>
+          <h2>Cách cài app không qua CH Play</h2>
+          <p>
+            App hiện được phát hành dạng APK để dùng thử nội bộ. Khi tải file APK, Android có thể hỏi quyền cài ứng dụng từ nguồn ngoài.
+          </p>
+        </div>
+        <ol class="steps">
+          <li><strong>Tải APK</strong><span>Bấm nút tải ở website hoặc GitHub Releases.</span></li>
+          <li><strong>Mở file APK</strong><span>Chọn file vừa tải trong trình quản lý tệp/tải xuống.</span></li>
+          <li><strong>Cho phép cài đặt</strong><span>Bật “Cài ứng dụng không rõ nguồn gốc” nếu Android yêu cầu.</span></li>
+          <li><strong>Đăng nhập và dùng</strong><span>Đăng nhập để đồng bộ tag, trade và Trainer Ticket.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="download-cta section-wrap">
+      <div class="cta-card">
+        <div>
+          <p class="eyebrow">Bản Android</p>
+          <h2>Sẵn sàng kiểm tag gọn hơn?</h2>
+          <p>Tải bản mới nhất, cài APK và bắt đầu quản lý bộ sưu tập Mezastar của bạn.</p>
+        </div>
+        <a class="btn btn-primary" href="https://github.com/YOUR_USERNAME/mezastar-collector/releases/latest" target="_blank" rel="noopener">
+          Tải bản mới nhất
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Mezastar Collector</strong>
+      <p>Ứng dụng hỗ trợ sưu tầm cá nhân/cộng đồng, không phải ứng dụng chính thức từ Pokémon, Takara Tomy hoặc các đơn vị phát hành liên quan.</p>
+    </div>
+    <a href="#top">Lên đầu trang ↑</a>
+  </footer>
+</body>
+</html>
